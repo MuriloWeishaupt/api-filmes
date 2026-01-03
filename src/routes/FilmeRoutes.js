@@ -1,9 +1,5 @@
 import { Router } from "express";
-import {
-  listarFilmes,
-  buscarPorId,
-  filtrarFilmes
-} from "../controllers/FilmeController.js";
+import {listarFilmes, buscarPorId, filtrarFilmes} from "../controllers/FilmeController.js";
 
 const router = Router();
 
